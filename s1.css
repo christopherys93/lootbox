@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+body {
+    background-color: rgb(95, 95, 95);
+}
+
+header {
+    background: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.instructions {
+    text-align: center;
+    padding: 25px;
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.game {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.result {
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.inventory {
+    padding-top: 30px;
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    font-size: 20px;
+}

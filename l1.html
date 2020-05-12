@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="s1.css">
+    <title>Lootbox Game</title>
+</head>
+<body>
+    <header>
+      <h1>Lootbox Simulator Game</h1>
+    </header>
+
+    <div class="instructions">
+      <h2>Click the lootbox to display your prize.</h2>
+    </div>
+
+    <div class="game">
+      <input id="clickGame" type="image" src="images/1485070.png">
+    </div>
+
+    <div class="result">
+      <p id="displayPrize"></p>
+    </div>
+
+    <div class="images">
+      <img id="bow-pic" style="display: none" src="images/bow.png">
+      <img id="sword-pic" style="display: none" src="images/sword.png">
+      <img id="axe-pic" style="display: none" src="images/axe.png">
+      <img id="spear-pic" style="display: none" src="images/spear.png">
+      <img id="mace-pic" style="display: none" src="images/mace.png">
+    </div>
+
+    <div class="inventory">
+      <h1>Your Inventory</h1>
+      <div class="bow-counter">
+        <h2>Bow</h2>
+        <p>0</p>
+      </div>
+      <div class="sword-counter">
+        <h2>Sword</h2>
+        <p>0</p>
+      </div>
+      <div class="axe-counter">
+        <h2>Axe</h2>
+        <p>0</p>
+      </div>
+      <div class="mace-counter">
+        <h2>Mace</h2>
+        <p>0</p>
+      </div>
+      <div class="spear-counter">
+        <h2>Spear</h2>
+        <p>0</p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="loot.js"></script>
+</body>
+</html>
